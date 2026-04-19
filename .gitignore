@@ -1,0 +1,24 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+*.pyo
+build/
+dist/
+wheels/
+*.egg-info
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+
+# Environment and secrets
+.env
+
+# Generated vector indexes and local data artifacts
+faiss_store/
+src/faiss_store/
+data/vector_store/
+
+# Notebook outputs and local experimentation
+notebook/.ipynb_checkpoints/
+notebook/pdf_loader.ipynb
